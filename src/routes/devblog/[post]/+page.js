@@ -4,9 +4,9 @@ export const prerender = false;
 export async function load({ params }) {
 
   // Dynamically import all .svx files in the current directory 
-  const allPosts = import.meta.glob('../*.svx');
+  const allPosts = import.meta.glob('../posts/*.svx');
   // Extract import function for the specific post based on the slug
-  const postImport = allPosts["../"+params.post+".svx"];
+  const postImport = allPosts["../posts/"+params.post+".svx"];
 
   // Check if the post import function exists
   if (!postImport) {
