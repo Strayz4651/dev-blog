@@ -1,5 +1,5 @@
 ---
-title: "Hello World"
+title: "Vad handlade lektionerna om?"
 date: "2026-04-01"
 effort: "low/medium/high"
 meme: "https://miro.medium.com/1*CqPTchUH9z-c6wsMtcw6vw.png"
@@ -10,13 +10,11 @@ meme: "https://miro.medium.com/1*CqPTchUH9z-c6wsMtcw6vw.png"
 </script>
 
 
-# Hello 👋
+# Hej 👋
 
-Welcome to my first devblog post!
-Each post is written in MDX format, which allows you to use Svelte components inside your posts - such as this CodeBlock. 
+I denna lektion så har jag jobbat med att göra layouten på min första page bara för att en sorts bas att jobba med
 <br>
-Each post needs to have a title, a date and a photo in the frontmatter, between the --- tags.
-
+Jag lyckades göra klart min layout och blev relativt nöjd med den.
 
 <div class="p-10 space-y-4">
 	<CodeBlock code="npx sv create my-skeleton-app" lang="bash" />
